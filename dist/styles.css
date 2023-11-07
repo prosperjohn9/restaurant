@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    gap: 3rem;
+}
+
+.home-nav,
+.menu-nav,
+.contact-nav {
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.home-nav:hover,
+.menu-nav:hover,
+.contact-nav:hover {
+    background-color: #c4621d;
+}
+
+nav>div.active {
+    background-color: #c4621d;
+}
+
+.home-image {
+    display: block;
+    margin: 2rem auto;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 2rem;
+}
+
+.home-h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.home-p1{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.hour{
+    border: none;
+    width: 60vw;
+    border-radius: 1rem;
+    margin: auto;
+}
+.hour p{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.hour h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+.contact {
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 1.8rem;
+}
+
+.contact p {
+    font-size: 1.1rem;
+}
+
+.contact>* {
+    margin: 0.5rem;
+}
+
+.contact img {
+    width: 60vw;
+    height: 60vw;
+    margin: auto;
+    display: block;
+    border-radius: 1.5rem;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 1rem;
+}
+
+.menu-item {
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0.4rem;
+}
+
+.menu-item img {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    display: block;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.menu-item:hover {
+    background-color: #c4621d;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+footer img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.2rem;
+}
